@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: url(Images/frances-gunn-QcBAZ7VREHQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+/* contact page */
+
+form {
+  background: rgba(0, 0, 0, 0.747);
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 30px black;
+  width: 640px;
+  margin: 50px auto;
+  max-width: 80%;
+  border-radius: 5px;
+  padding: 55px 30px;
+}
+
+form .title h2 {
+  border-bottom: 1px solid white;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 32px;
+}
+
+form .half {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+form .half .item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+input, textarea {
+  padding: 10px;
+}
+
+textarea {
+  max-width: 96.5%;
+}
+
+label {
+  padding-bottom: 5px;
+}
+
+#submit {
+  width: 100%;
+  background-color: green;
+  padding: 15px;
+  color: white;
+  transition: all 0.5s;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: rgb(0, 192, 0);
+}
+
+#submit:active {
+  background-color: rgb(0, 96, 0);
+}
+
+
